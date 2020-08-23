@@ -190,9 +190,6 @@ export MANPAGER="/bin/sh -c \"col -b | vim --not-a-term -c 'set ft=man ts=8 nomo
 ### BASH POWERLINE ###
 source ~/.bash-powerline.sh
 
-### BROOT ###
-#source /home/dt/.config/broot/launcher/bash/br
-
 ### BASH INSULTER ###
 if [ -f /etc/bash.command-not-found ]; then
     . /etc/bash.command-not-found
@@ -201,5 +198,15 @@ fi
 ### RANDOM COLOR SCRIPT ###
 #/opt/shell-color-scripts/colorscript.sh random
 
-
+### BROOT ###
 source /home/apoorv/.config/broot/launcher/bash/br
+
+### youtube-dl
+alias yta-aac="youtube-dl --extract-audio --audio-format aac "
+alias yta-best="youtube-dl --extract-audio --audio-format best "
+alias yta-flac="youtube-dl --extract-audio --audio-format flac "
+alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
+alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
+alias yta-opus="youtube-dl --extract-audio --audio-format opus "
+alias yta-vorbis="youtube-dl --extract-audio --audio-format wav "
+alias ytv-best="youtube-dl -f bestvideo+bestaudio "
