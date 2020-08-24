@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/apoorv/Documents/leetcode/cpp'
+let g:netrw_dirhist_0='/home/apoorv/Documents/leetcode/java'
+let g:netrw_dirhist_9='/home/apoorv/Documents/leetcode/python'
+let g:netrw_dirhist_8='/usr/share/nvim/runtime'
+let g:netrw_dirhist_7='/usr/share/nvim/runtime/doc'
+let g:netrw_dirhist_6='/home/apoorv/Documents/leetcode/python'
+let g:netrw_dirhist_5='/home/apoorv/Documents/leetcode'
+let g:netrw_dirhist_4='/home/apoorv/Documents/leetcode/problems'
+let g:netrw_dirhist_3='/home/apoorv/Documents/leetcode'
+let g:netrw_dirhist_2='/home/apoorv/Documents/leetcode/java'
