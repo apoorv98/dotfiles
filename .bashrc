@@ -7,6 +7,7 @@ export HISTCONTROL=ignoredups:erasedups		# no duplicate entries
 export RANGER_LOAD_DEFAULT_RC="false"	 	# prevent ranger double call
 export IDENTIFIER="unicode"			        # for dwmbar
 export CALIBRE_USE_DARK_PALETTE=1		    # for calibre
+export LC_ALL="en_US.UTF-8"
 
 [[ $- != *i* ]] && return
 
@@ -137,6 +138,7 @@ ex ()
   fi
 }
 
+
 ### ALIASES ###
 
 # root privileges
@@ -166,7 +168,9 @@ alias ll='exa -l --color=always --group-directories-first'  # long format
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
 
 # adding flags
-alias cp="cp -i"                          # confirm before overwriting something
+alias cp="cp -riv"                          # confirm before overwriting something
+alias mv="mv -iv"
+alias mkdir="mkdir -vp"
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'

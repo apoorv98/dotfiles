@@ -46,7 +46,8 @@ call vundle#begin()		" required, all plugins must appear after this line.
     Plugin 'junegunn/goyo.vim'                           " Distraction-free viewing
     Plugin 'junegunn/limelight.vim'                      " Hyperfocus on a range
     Plugin 'junegunn/vim-emoji'                          " Vim needs emojis!
-
+    Plugin 'nightsense/snow'                             " Colorscheme"
+    Plugin 'habamax/vim-gruvbit'                         " Colorscheme"
 call vundle#end()		" required, all plugins must appear before this line.
 
 filetype plugin indent on    " required
@@ -74,6 +75,8 @@ set noswapfile                  " No swap
 set t_Co=256                    " Set if term supports 256 colors.
 set number relativenumber       " Display line numbers
 set clipboard=unnamedplus       " Copy/paste between vim and other programs.
+set background=dark
+colorscheme snow
 "set spell
 "set spelllang=en_us
 syntax enable
@@ -123,23 +126,23 @@ let g:NERDTreeWinSize=38
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Theming
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-highlight LineNr           ctermfg=8    ctermbg=none    cterm=none
-highlight CursorLineNr     ctermfg=7    ctermbg=8       cterm=none
-highlight VertSplit        ctermfg=0    ctermbg=8       cterm=none
-highlight Statement        ctermfg=2    ctermbg=none    cterm=none
-highlight Directory        ctermfg=4    ctermbg=none    cterm=none
-highlight StatusLine       ctermfg=7    ctermbg=8       cterm=none
-highlight StatusLineNC     ctermfg=7    ctermbg=8       cterm=none
-highlight NERDTreeClosable ctermfg=2
-highlight NERDTreeOpenable ctermfg=8
-highlight Comment          ctermfg=4    ctermbg=none    cterm=none
-highlight Constant         ctermfg=12   ctermbg=none    cterm=none
-highlight Special          ctermfg=4    ctermbg=none    cterm=none
-highlight Identifier       ctermfg=6    ctermbg=none    cterm=none
-highlight PreProc          ctermfg=5    ctermbg=none    cterm=none
-highlight String           ctermfg=12   ctermbg=none    cterm=none
-highlight Number           ctermfg=1    ctermbg=none    cterm=none
-highlight Function         ctermfg=1    ctermbg=none    cterm=none
+" highlight LineNr           ctermfg=8    ctermbg=none    cterm=none
+" highlight CursorLineNr     ctermfg=7    ctermbg=8       cterm=none
+" highlight VertSplit        ctermfg=0    ctermbg=8       cterm=none
+" highlight Statement        ctermfg=2    ctermbg=none    cterm=none
+" highlight Directory        ctermfg=4    ctermbg=none    cterm=none
+" highlight StatusLine       ctermfg=7    ctermbg=8       cterm=none
+" highlight StatusLineNC     ctermfg=7    ctermbg=8       cterm=none
+" highlight NERDTreeClosable ctermfg=2
+" highlight NERDTreeOpenable ctermfg=8
+" highlight Comment          ctermfg=4    ctermbg=none    cterm=none
+" highlight Constant         ctermfg=12   ctermbg=none    cterm=none
+" highlight Special          ctermfg=4    ctermbg=none    cterm=none
+" highlight Identifier       ctermfg=6    ctermbg=none    cterm=none
+" highlight PreProc          ctermfg=5    ctermbg=none    cterm=none
+" highlight String           ctermfg=12   ctermbg=none    cterm=none
+" highlight Number           ctermfg=1    ctermbg=none    cterm=none
+" highlight Function         ctermfg=1    ctermbg=none    cterm=none
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Vifm

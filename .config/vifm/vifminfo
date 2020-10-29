@@ -30,123 +30,306 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/apoorv/Documents/opt
-	I-20.pdf
+d/home/apoorv/Downloads/audiobook
+	.backups
 1
-d/home/apoorv/Documents
-	notes
-11
-d/home/apoorv/Documents/notes
-	Book notes.md
-4
-d/home/apoorv/.config/nvim
-	plugged
+d/home/apoorv/Downloads/audiobook/.backups
+	com.nianticlabs.pokemongo
+1
+d/home/apoorv/Downloads/audiobook/.backups/com.nianticlabs.pokemongo
+	helpshift
+1
+d/home/apoorv/Downloads/audiobook/.backups/com.nianticlabs.pokemongo/helpshift
+	databases
+1
+d/home/apoorv/Downloads/audiobook/.backups/com.nianticlabs.pokemongo/helpshift/databases
+	..
+0
+d/home/apoorv/Downloads/audiobook/.backups/com.nianticlabs.pokemongo/helpshift
+	databases
+1
+d/home/apoorv/Downloads/audiobook/.backups/com.nianticlabs.pokemongo
+	helpshift
+1
+d/home/apoorv/Downloads/audiobook/.backups
+	com.nianticlabs.pokemongo
+1
+d/home/apoorv/Downloads/audiobook
+	.stfolder
 2
-d/home/apoorv/.config/nvim/plugged
-	..
-0
-d/home/apoorv/.config/nvim
-	..
-0
-d/home/apoorv/.config
+d/home/apoorv/Downloads
+	HearthstoneDeckTracker
+2
+d/home/apoorv
+	Downloads
+28
+d/home
+	apoorv
+1
+d/home/apoorv
+	.gnome
+21
+d/home/apoorv/.gnome
 	..
 0
 d/home/apoorv
-	.config
-4
-d/home/apoorv/.config
-	vifm
-39
-d/home/apoorv/.config/vifm
+	.gnome
+21
+d/home/apoorv/.gnome
+	apps
+1
+d/home/apoorv/.gnome/apps
+	chrome-nmmhkkegccagdldgiimedpiccmgmieda-Default.desktop
+5
+d/home/apoorv/.gnome
 	..
 0
-d/home/apoorv/.config
-	vifm
-38
-d/home/apoorv/.config/vifm
+d/home/apoorv
+	.gradle
+24
+d/home/apoorv/.gradle
 	..
 0
-d/home/apoorv/.config
-	vifm
-38
-d/home/apoorv/.config/vifm
-	..
-0
-d/home/apoorv/.config
-	vifm
-38
-d/home/apoorv/.config/vifm
-	scripts
+d/home/apoorv
+	.java
+29
+d/home/apoorv/.java
+	fonts
 2
-d/home/apoorv/.config/vifm/scripts
+d/home/apoorv
+	.joplin
+30
+d/home/apoorv/.joplin
 	..
 0
-d/home/apoorv/.config/vifm
+d/home/apoorv
+	.ssh
+30
+d/home/apoorv/.ssh
+	known_hosts
+4
+d/home/apoorv
+	sort_out
+30
+d/home/apoorv/sort_out
+	files
+1
+d/home/apoorv/sort_out/files
 	..
 0
-d/home/apoorv/.config
+d/home/apoorv/sort_out
+	onedrive
+2
+d/home/apoorv/sort_out/onedrive
+	..
+0
+d/home/apoorv/sort_out
+	onedrive
+2
+d/home/apoorv
+	thinkorswim
+30
+d/home/apoorv/thinkorswim
+	..
+0
+d/home/apoorv
+	Applications
+13
+d/home/apoorv/Applications
+	..
+0
+d/home/apoorv
+	Downloads
+18
+d/home/apoorv/Downloads
+	AppImages
+1
+d/home/apoorv/Downloads/AppImages
+	ArenaTracker.Linux.AppImage
+1
+d/home/apoorv/Downloads
+	AppImages
+1
+d/home/apoorv
+	Applications
+13
+d/home/apoorv/Applications
+	ArenaTracker.Linux.AppImage
+2
+d/home/apoorv
+	Applications
+13
+d/home/apoorv/Applications
+	ArenaTracker.Linux.AppImage
+2
+d/home/apoorv
+	dwmblocks
+29
+d/home/apoorv/dwmblocks
+	dwmblocks
+5
+d/home/apoorv
+	Sync
+23
+d/home/apoorv/Sync
 	..
 0
 d/home/apoorv
 	Pictures
-38
+20
 d/home/apoorv/Pictures
 	backgrounds
 4
 d/home/apoorv/Pictures/backgrounds
 	wallpapers
-1
-d/home/apoorv/Pictures/backgrounds/wallpapers
-	0015.jpg
-16
-d/home/apoorv/Documents/notes
-	fastai
 2
-d/home/apoorv/Documents/leetcode/python
-	121_BestTimeToBuyAndSellStocks.py
-34
-d/home/apoorv/Documents/leetcode/java
-	121_Best_Time_To_Buy_And_Sell_Stock.java
-15
-d/home/apoorv/Documents/leetcode/cpp
-	121_best_time_to_buy_and_sell_stock.cpp
-20
-d/usr/share/xsessions
+d/home/apoorv/Pictures
+	Twitter
+3
+d/home/apoorv/Pictures/Twitter
+	IMG_20200310_081249.jpg
+1
+d/home/apoorv/Pictures
+	Android
+2
+d/home/apoorv/Pictures/Android
 	..
 0
-d/home/apoorv/Documents/leetcode/java
-	122_Best_Time_To_Buy_And_Sell_Stocks_ii.java
-15
-d/home/apoorv/Documents/leetcode/cpp
-	122_best_time_to_buy_and_sell_stocks_ii.cpp
-20
-d/home/apoorv/Documents/leetcode/python
-	122_BestTimeToBuyAndSellStocksii.py
-35
-d/home/apoorv/Documents/leetcode/cpp
-	125_valid_palindrome.cpp
-20
-d/home/apoorv/Documents/leetcode/java
-	125_Valid_Palindrome.java
-15
-d/home/apoorv/Documents/leetcode/python
-	125_ValidPalindrome.py
-36
-d/home/apoorv/Documents/leetcode/problems
-	125_Valid_Palindrome.md
-36
-d/home/apoorv/Documents/leetcode/python
-	136_SingleNumber.py
-37
-d/home/apoorv/Documents/leetcode/java
-	136_Single_Number.java
-15
-d/home/apoorv/Documents/leetcode/cpp
-	136_single_number.cpp
-20
-d/home/apoorv/Documents/leetcode/problems
-	136_Single_Number.md
-37
+d/home/apoorv/Pictures
+	backgrounds
+4
+d/home/apoorv
+	.wine32
+29
+d/home/apoorv/.wine32
+	drive_c
+2
+d/home/apoorv/.wine32/drive_c
+	Program Files
+1
+d/home/apoorv/.wine32/drive_c/Program Files
+	Hearthstone
+3
+d/home/apoorv/.wine32/drive_c/Program Files/Hearthstone
+	..
+0
+d/home/apoorv/.wine32/drive_c/Program Files
+	Battle.net
+1
+d/home/apoorv/.wine32/drive_c
+	Program Files
+1
+d/home/apoorv/.wine32
+	drive_c
+2
+d/home/apoorv
+	.wine
+28
+d/home/apoorv/.wine
+	drive_c
+2
+d/home/apoorv/.wine/drive_c
+	Program Files
+1
+d/home/apoorv/.wine/drive_c/Program Files
+	Battle.net
+1
+d/home/apoorv/.wine/drive_c
+	Program Files
+1
+d/home/apoorv/.wine
+	drive_c
+2
+d/home/apoorv
+	.wine32
+29
+d/home/apoorv/.wine32
+	drive_c
+2
+d/home/apoorv/.wine32/drive_c
+	Program Files
+1
+d/home/apoorv/.wine32/drive_c/Program Files
+	Hearthstone
+3
+d/home/apoorv/.wine32/drive_c
+	Program Files
+1
+d/home/apoorv/.wine32
+	drive_c
+2
+d/home/apoorv
+	.wine
+28
+d/home/apoorv/.wine
+	drive_c
+2
+d/home/apoorv/.wine/drive_c
+	Program Files
+1
+d/home/apoorv/.wine/drive_c/Program Files
+	Common Files
+1
+d/home/apoorv/.wine/drive_c
+	Program Files (x86)
+2
+d/home/apoorv/.wine/drive_c/Program Files (x86)
+	Battle.net
+2
+d/home/apoorv/.wine/drive_c
+	Program Files
+1
+d/home/apoorv/.wine/drive_c/Program Files
+	Internet Explorer
+2
+d/home/apoorv/.wine/drive_c
+	Program Files (x86)
+2
+d/home/apoorv/.wine/drive_c/Program Files (x86)
+	Hearthstone
+4
+d/home/apoorv/.wine/drive_c
+	Program Files
+1
+d/home/apoorv/.wine/drive_c/Program Files
+	Internet Explorer
+2
+d/home/apoorv/.wine/drive_c
+	Program Files (x86)
+2
+d/home/apoorv/.wine/drive_c/Program Files (x86)
+	Safari
+6
+d/home/apoorv/.wine/drive_c
+	Program Files (x86)
+2
+d/home/apoorv/.wine
+	drive_c
+2
+d/home/apoorv
+	Downloads
+29
+d/home/apoorv/Downloads
+	installations
+7
+d/home/apoorv/Downloads/installations
+	wine-5.20-staging-amd64
+9
+d/home/apoorv/Downloads
+	installations
+7
+d/home/apoorv
+	.wine
+19
+d/home/apoorv/.wine
+	drive_c
+2
+d/home/apoorv/.wine/drive_c
+	Program Files (x86)
+2
+d/home/apoorv/.wine/drive_c/Program Files (x86)
+	Internet Explorer
+4
 d
 
 # Right window history (oldest to newest):
@@ -173,7 +356,6 @@ D
 # Command line history (oldest to newest):
 :marks
 :q
-:h
 :touch vifmrc
 :touch 121_BestTimeToBuyAndSellStocks.py
 :touch 121_Best_Time_To_Buy_And_Sell_Stock.java
@@ -190,22 +372,55 @@ D
 :touch 136_Single_Number.java
 :touch 136_single_number.cpp
 :touch 136_Single_Number.md
+:touch 160_Intersection_Of_Two_Linked_Lists.java
+:touch 160_IntersectionOfTwoLinkedLists.py
+:touch 160_intersection_of_two_linked_lists.cpp
+:touch 167_TwoSumII.md
+:touch 167_Two_Sum_II.java
+:touch 167_two_sum_ii.cpp
+:touch 167_TwoSumII.py
+:h dotfiles
+:h dot
+:h folder
+:mkdir Applications
+:h
 
 # Search history (oldest to newest):
 /.config
 /vifm
 /Pictugg
 /Pic
+/downlo
+/dwm
+/.wine
+/down
 
 # Prompt history (oldest to newest):
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/home/apoorv/.local/share/vifm/Trash/000_Hearthstone
 
 # Directory stack (oldest to newest):
 
 # Trash content:
+t/home/apoorv/.local/share/vifm/Trash/000_apps
+	/home/apoorv/.gnome/apps
+t/home/apoorv/.local/share/vifm/Trash/000_.gradle
+	/home/apoorv/.gradle
+t/home/apoorv/.local/share/vifm/Trash/000_.joplin
+	/home/apoorv/.joplin
+t/home/apoorv/.local/share/vifm/Trash/000_id_rsa1
+	/home/apoorv/.ssh/id_rsa1
+t/home/apoorv/.local/share/vifm/Trash/000_id_rsa1.pub
+	/home/apoorv/.ssh/id_rsa1.pub
+t/home/apoorv/.local/share/vifm/Trash/000_.thinkorswim
+	/home/apoorv/.thinkorswim
+t/home/apoorv/.local/share/vifm/Trash/000_.thunderbird
+	/home/apoorv/.thunderbird
+t/home/apoorv/.local/share/vifm/Trash/000_Hearthstone
+	/home/apoorv/.wine/drive_c/Program Files (x86)/Hearthstone
 
 # State:
 f
