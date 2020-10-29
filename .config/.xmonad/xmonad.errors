@@ -1,0 +1,420 @@
+
+xmonad.hs:10:1: error:
+    Could not load module ‘XMonad.Config.Desktop’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+10 | import XMonad.Config.Desktop
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:18:1: error:
+    Could not load module ‘XMonad.Util.Loggers’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+18 | import XMonad.Util.Loggers
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:19:1: error:
+    Could not load module ‘XMonad.Util.EZConfig’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+19 | import XMonad.Util.EZConfig (additionalKeysP, additionalMouseBindings)  
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:20:1: error:
+    Could not load module ‘XMonad.Util.NamedScratchpad’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+20 | import XMonad.Util.NamedScratchpad
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:21:1: error:
+    Could not load module ‘XMonad.Util.Run’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+21 | import XMonad.Util.Run (safeSpawn, unsafeSpawn, runInTerm, spawnPipe)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:22:1: error:
+    Could not load module ‘XMonad.Util.SpawnOnce’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+22 | import XMonad.Util.SpawnOnce
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:25:1: error:
+    Could not load module ‘XMonad.Hooks.DynamicLog’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+25 | import XMonad.Hooks.DynamicLog (dynamicLogWithPP, defaultPP, wrap, pad, xmobarPP, xmobarColor, shorten, PP(..))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:26:1: error:
+    Could not load module ‘XMonad.Hooks.ManageDocks’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+26 | import XMonad.Hooks.ManageDocks (avoidStruts, docksStartupHook, manageDocks, ToggleStruts(..))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:27:1: error:
+    Could not load module ‘XMonad.Hooks.ManageHelpers’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+27 | import XMonad.Hooks.ManageHelpers (isFullscreen, isDialog,  doFullFloat, doCenterFloat) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:28:1: error:
+    Could not load module ‘XMonad.Hooks.Place’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+28 | import XMonad.Hooks.Place (placeHook, withGaps, smart)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:29:1: error:
+    Could not load module ‘XMonad.Hooks.SetWMName’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+29 | import XMonad.Hooks.SetWMName
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:30:1: error:
+    Could not load module ‘XMonad.Hooks.EwmhDesktops’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+30 | import XMonad.Hooks.EwmhDesktops   -- required for xcomposite in obs to work
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:33:1: error:
+    Could not load module ‘XMonad.Actions.Minimize’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+33 | import XMonad.Actions.Minimize (minimizeWindow)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:34:1: error:
+    Could not load module ‘XMonad.Actions.Promote’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+34 | import XMonad.Actions.Promote
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:35:1: error:
+    Could not load module ‘XMonad.Actions.RotSlaves’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+35 | import XMonad.Actions.RotSlaves (rotSlavesDown, rotAllDown)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:36:1: error:
+    Could not load module ‘XMonad.Actions.CopyWindow’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+36 | import XMonad.Actions.CopyWindow (kill1, copyToAll, killAllOtherCopies, runOrCopy)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:37:1: error:
+    Could not load module ‘XMonad.Actions.WindowGo’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+37 | import XMonad.Actions.WindowGo (runOrRaise, raiseMaybe)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:38:1: error:
+    Could not load module ‘XMonad.Actions.WithAll’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+38 | import XMonad.Actions.WithAll (sinkAll, killAll)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:39:1: error:
+    Could not load module ‘XMonad.Actions.CycleWS’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+39 | import XMonad.Actions.CycleWS (moveTo, shiftTo, WSType(..), nextScreen, prevScreen, shiftNextScreen, shiftPrevScreen)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:40:1: error:
+    Could not load module ‘XMonad.Actions.GridSelect’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+40 | import XMonad.Actions.GridSelect
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:41:1: error:
+    Could not load module ‘XMonad.Actions.DynamicWorkspaces’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+41 | import XMonad.Actions.DynamicWorkspaces (addWorkspacePrompt, removeEmptyWorkspace)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:42:1: error:
+    Could not load module ‘XMonad.Actions.MouseResize’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+42 | import XMonad.Actions.MouseResize
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:43:1: error:
+    Could not load module ‘XMonad.Actions.ConstrainedResize’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+43 | import qualified XMonad.Actions.ConstrainedResize as Sqr
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:46:1: error:
+    Could not load module ‘XMonad.Layout.PerWorkspace’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+46 | import XMonad.Layout.PerWorkspace (onWorkspace) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:47:1: error:
+    Could not load module ‘XMonad.Layout.Renamed’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+47 | import XMonad.Layout.Renamed (renamed, Rename(CutWordsLeft, Replace))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:48:1: error:
+    Could not load module ‘XMonad.Layout.WorkspaceDir’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+48 | import XMonad.Layout.WorkspaceDir
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:49:1: error:
+    Could not load module ‘XMonad.Layout.Spacing’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+49 | import XMonad.Layout.Spacing (spacing) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:50:1: error:
+    Could not load module ‘XMonad.Layout.NoBorders’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+50 | import XMonad.Layout.NoBorders
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:51:1: error:
+    Could not load module ‘XMonad.Layout.LimitWindows’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+51 | import XMonad.Layout.LimitWindows (limitWindows, increaseLimit, decreaseLimit)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:52:1: error:
+    Could not load module ‘XMonad.Layout.WindowArranger’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+52 | import XMonad.Layout.WindowArranger (windowArrange, WindowArrangerMsg(..))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:53:1: error:
+    Could not load module ‘XMonad.Layout.Reflect’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+53 | import XMonad.Layout.Reflect (reflectVert, reflectHoriz, REFLECTX(..), REFLECTY(..))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:54:1: error:
+    Could not load module ‘XMonad.Layout.MultiToggle’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+54 | import XMonad.Layout.MultiToggle (mkToggle, single, EOT(EOT), Toggle(..), (??))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:55:1: error:
+    Could not load module ‘XMonad.Layout.MultiToggle.Instances’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+55 | import XMonad.Layout.MultiToggle.Instances (StdTransformers(NBFULL, MIRROR, NOBORDERS))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:56:1: error:
+    Could not load module ‘XMonad.Layout.ToggleLayouts’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+56 | import qualified XMonad.Layout.ToggleLayouts as T (toggleLayouts, ToggleLayout(Toggle))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:59:1: error:
+    Could not load module ‘XMonad.Layout.GridVariants’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+59 | import XMonad.Layout.GridVariants (Grid(Grid))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:60:1: error:
+    Could not load module ‘XMonad.Layout.SimplestFloat’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+60 | import XMonad.Layout.SimplestFloat
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:61:1: error:
+    Could not load module ‘XMonad.Layout.OneBig’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+61 | import XMonad.Layout.OneBig
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:62:1: error:
+    Could not load module ‘XMonad.Layout.ThreeColumns’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+62 | import XMonad.Layout.ThreeColumns
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:63:1: error:
+    Could not load module ‘XMonad.Layout.ResizableTile’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+63 | import XMonad.Layout.ResizableTile
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:64:1: error:
+    Could not load module ‘XMonad.Layout.ZoomRow’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+64 | import XMonad.Layout.ZoomRow (zoomRow, zoomIn, zoomOut, zoomReset, ZoomMessage(ZoomFullToggle))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:65:1: error:
+    Could not load module ‘XMonad.Layout.IM’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+65 | import XMonad.Layout.IM (withIM, Property(Role))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+xmonad.hs:68:1: error:
+    Could not load module ‘XMonad.Prompt’
+    It is a member of the hidden package ‘xmonad-contrib-0.16’.
+    You can run ‘:set -package xmonad-contrib’ to expose it.
+    (Note: this unloads all the modules in the current scope.)
+    Use -v (or `:set -v` in ghci) to see a list of the files searched for.
+   |
+68 | import XMonad.Prompt (defaultXPConfig, XPConfig(..), XPPosition(Top), Direction1D(..))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
