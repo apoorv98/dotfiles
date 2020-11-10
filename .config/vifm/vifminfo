@@ -30,51 +30,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/apoorv/Downloads/audiobook
-	.backups
-1
-d/home/apoorv/Downloads/audiobook/.backups
-	com.nianticlabs.pokemongo
-1
-d/home/apoorv/Downloads/audiobook/.backups/com.nianticlabs.pokemongo
-	helpshift
-1
-d/home/apoorv/Downloads/audiobook/.backups/com.nianticlabs.pokemongo/helpshift
-	databases
-1
-d/home/apoorv/Downloads/audiobook/.backups/com.nianticlabs.pokemongo/helpshift/databases
-	..
-0
-d/home/apoorv/Downloads/audiobook/.backups/com.nianticlabs.pokemongo/helpshift
-	databases
-1
-d/home/apoorv/Downloads/audiobook/.backups/com.nianticlabs.pokemongo
-	helpshift
-1
-d/home/apoorv/Downloads/audiobook/.backups
-	com.nianticlabs.pokemongo
-1
-d/home/apoorv/Downloads/audiobook
-	.stfolder
-2
-d/home/apoorv/Downloads
-	HearthstoneDeckTracker
-2
-d/home/apoorv
-	Downloads
-28
-d/home
-	apoorv
-1
-d/home/apoorv
-	.gnome
-21
-d/home/apoorv/.gnome
-	..
-0
-d/home/apoorv
-	.gnome
-21
 d/home/apoorv/.gnome
 	apps
 1
@@ -330,6 +285,51 @@ d/home/apoorv/.wine/drive_c
 d/home/apoorv/.wine/drive_c/Program Files (x86)
 	Internet Explorer
 4
+d/home/apoorv/.wine/drive_c
+	Program Files (x86)
+2
+d/home/apoorv/.wine
+	drive_c
+2
+d/home/apoorv
+	.ssh
+4
+d/home/apoorv/.ssh
+	id_rsa.pub
+3
+d/home/apoorv
+	Documents
+4
+d/home/apoorv/Documents
+	Music
+4
+d/home/apoorv/Documents/Music
+	NewPipe
+1
+d/home/apoorv/Documents/Music/NewPipe
+	..
+0
+d/home/apoorv/Documents/Music
+	NewPipe
+1
+d/home/apoorv/Documents
+	Music
+4
+d/home/apoorv
+	Music
+7
+d/home/apoorv/Music
+	freegalmusic
+3
+d/home/apoorv/Music/freegalmusic
+	..
+0
+d/home/apoorv/Music
+	freegalmusic
+3
+d/home/apoorv/Music/freegalmusic
+	VariousArtists_OceanEyes_194491997700_1_3.mp3
+21
 d
 
 # Right window history (oldest to newest):
@@ -386,6 +386,7 @@ D
 :h
 
 # Search history (oldest to newest):
+/notes
 /.config
 /vifm
 /Pictugg
@@ -394,13 +395,16 @@ D
 /dwm
 /.wine
 /down
+/thinkpad
+/docum
+/music
 
 # Prompt history (oldest to newest):
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/apoorv/.local/share/vifm/Trash/000_Hearthstone
+""/home/apoorv/thinkpad.ovpn
 
 # Directory stack (oldest to newest):
 
