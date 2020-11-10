@@ -18,8 +18,12 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=11:antialias=true:hinting=t
        , commands = [ 
                       -- Time and date
                       Run Date "<fn=1>\xf133</fn> %b %d %Y (%H:%M)" "date" 50
+                      -- Battery
+                    , Run BatteryP ["BAT0"] 
+                   ["-t", "<acstatus>: <left>% - <timeleft>", "--", --"-c", "charge_full", "-O", "AC", "-o", "Bat", "-h", "green", 
+                   "-l", "red"] 10
                       -- Network up and down
-                    , Run Network "wlp58s0" ["-t", "<fn=1>\xf0aa</fn> <rx>kb  <fn=1>\xf0ab</fn> <tx>kb"] 20
+                    , Run Network "wlp58s0" ["-t", "<fn=1>\xf0aa</fn> <tx>kb  <fn=1>\xf0ab</fn> <rx>kb"] 20
                       -- Cpu usage in percent
                     , Run Cpu ["-t", "<fn=1>\xf108</fn> cpu: (<total>%)","-H","50","--high","red"] 20
                       -- Ram used number and percent
