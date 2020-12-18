@@ -214,3 +214,6 @@ alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
 alias yta-opus="youtube-dl --extract-audio --audio-format opus "
 alias yta-vorbis="youtube-dl --extract-audio --audio-format wav "
 alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+
+### Path for Ruby
+export PATH="/home/apoorv/.gem/ruby/2.7.0/bin:$PATH"

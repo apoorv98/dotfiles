@@ -343,8 +343,8 @@ treeselectAction a = TS.treeselectAction a
          ]
        , Node (TS.TSNode "+ xmobar configs" "My xmobar config files" (return ()))
            [ Node (TS.TSNode "xmobar mon1" "status bar on monitor 1" (spawn (myEditor ++ "/home/apoorv/.config/xmobar/xmobarrc0"))) []
-           --, Node (TS.TSNode "xmobar mon2" "status bar on monitor 2" (spawn (myEditor ++ "/home/apoorv/.config/xmobar/xmobarrc2"))) []
-           --, Node (TS.TSNode "xmobar mon3" "status bar on monitor 3" (spawn (myEditor ++ "/home/apoorv/.config/xmobar/xmobarrc1"))) []
+           , Node (TS.TSNode "xmobar mon2" "status bar on monitor 2" (spawn (myEditor ++ "/home/apoorv/.config/xmobar/xmobarrc2"))) []
+           , Node (TS.TSNode "xmobar mon3" "status bar on monitor 3" (spawn (myEditor ++ "/home/apoorv/.config/xmobar/xmobarrc1"))) []
            ]
        , Node (TS.TSNode "+ xmonad configs" "My xmonad config files" (return ()))
            [ Node (TS.TSNode "xmonad.hs" "My XMonad Main" (spawn (myEditor ++ "/home/apoorv/.xmonad/xmonad.hs"))) []
@@ -860,8 +860,8 @@ main :: IO ()
 main = do
     -- Launching three instances of xmobar on their monitors.
     xmproc0 <- spawnPipe "xmobar -x 0 /home/apoorv/.config/xmobar/xmobarrc0"
-    -- xmproc1 <- spawnPipe "xmobar -x 1 /home/apoorv/.config/xmobar/xmobarrc1"
-    -- xmproc2 <- spawnPipe "xmobar -x 2 /home/apoorv/.config/xmobar/xmobarrc2"
+    xmproc1 <- spawnPipe "xmobar -x 1 /home/apoorv/.config/xmobar/xmobarrc1"
+    xmproc2 <- spawnPipe "xmobar -x 2 /home/apoorv/.config/xmobar/xmobarrc2"
     -- the xmonad, ya know...what the WM is named after!
     xmonad $ ewmh def
         { manageHook = ( isFullscreen --> doFullFloat ) <+> myManageHook <+> manageDocks

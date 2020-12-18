@@ -8,7 +8,8 @@
 
 # Change the value of LOCATION to match your city
 dwm_weather() {
-    LOCATION=Columbia,United_States
+    #LOCATION=Columbia,United_States
+    LOCATION=Mumbai,India
 
     printf "%s" "$SEP1"
     if [ "$IDENTIFIER" = "unicode" ]; then
